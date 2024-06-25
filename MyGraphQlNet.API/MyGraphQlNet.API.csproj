@@ -6,4 +6,13 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="../MyGraphQlNet.Application/MyGraphQlNet.Application.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HotChocolate.AspNetCore" Version="13.9.6" />
+    <PackageReference Include="HotChocolate.Data.EntityFramework" Version="13.9.6" />
+  </ItemGroup>
+
 </Project>
