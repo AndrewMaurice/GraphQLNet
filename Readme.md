@@ -24,7 +24,7 @@ To get started with this template, follow these steps:
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/your-repository/your-project.git
+   git clone https://github.com/AndrewMaurice/GraphQLNet.git
    cd your-project
    ```
 2. Restore the .NET dependencies:
@@ -78,7 +78,6 @@ dotnet watch run --project ./MyGraphQlNet.API/MyGraphQlNet.API.csproj
 ```
 
 The GraphQL Playground will be available at  `https://localhost:5001/graphql`.
-
 
 ## Contribution
 
