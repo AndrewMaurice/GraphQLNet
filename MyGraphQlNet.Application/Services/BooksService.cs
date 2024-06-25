@@ -34,7 +34,7 @@ internal class BooksService : IBooksService
         // For complex objects we can use AutoMapper to handle the mapping between the DTOs and the Domain entities.
         Book newBookToBeAdded = new Book(newBook.Name, newBook.NumberOfPages);
 
-        await _booksRepository.AddBook(newBookToBeAdded);
+        newBookToBeAdded =  await _booksRepository.AddBook(newBookToBeAdded);
         await _unitOfWork.SaveChanegsAsync();
 
         return newBookToBeAdded;
