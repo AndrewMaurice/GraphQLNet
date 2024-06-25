@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.6" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="8.0.6" />
+    <ProjectReference Include="../MyGraphQlNet.Domain/MyGraphQlNet.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
